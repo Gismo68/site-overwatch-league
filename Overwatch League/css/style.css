@@ -1,0 +1,27 @@
+p /*les paragraphes sont en bleu et taille de police 30 */
+{
+    color: black;
+    font-size: 2em;
+    font-family: "Arial Black";
+}
+ul /*modifie toutes les liste */
+{
+    color: black;
+    font-size: 2.5em;
+}
+*
+{
+    
+}
+a[title="cliquez ici pour agrandir"] /*modifie tout les liens qui ont title qui correspo,d a cliquez ici pour agrandir*/
+{
+    
+}
+.logo_ow
+{
+    float:left;
+}
+.image_pres
+{
+    float: right;
+}
