@@ -3,6 +3,7 @@ p /*les paragraphes sont en bleu et taille de police 30 */
     color: black;
     font-size: 2em;
     font-family: "Arial Black";
+    text-align: justify;
 }
 ul /*modifie toutes les liste */
 {
