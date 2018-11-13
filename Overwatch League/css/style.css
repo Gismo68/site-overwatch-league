@@ -1,22 +1,19 @@
-p /*les paragraphes sont en bleu et taille de police 30 */
+.presentation
 {
     color: black;
-    font-size: 2em;
+    font-size: 1.2em;
     font-family: "Arial Black";
     text-align: justify;
+    border: 2px white outset;
+    box-shadow: 10px 5px 10px black;
+    width: 60%;
+    padding: 1%;
+    overflow: auto;
 }
 ul /*modifie toutes les liste */
 {
     color: black;
-    font-size: 2.5em;
-}
-*
-{
-    
-}
-a[title="cliquez ici pour agrandir"] /*modifie tout les liens qui ont title qui correspo,d a cliquez ici pour agrandir*/
-{
-    
+    font-size: 2.5em;    
 }
 .logo_ow
 {
@@ -24,5 +21,48 @@ a[title="cliquez ici pour agrandir"] /*modifie tout les liens qui ont title qui 
 }
 .image_pres
 {
+    float: right;
+    width: 40%s
+}
+.menu_nav
+{
+    background-color: #FFA02C;
+    height:20%;
+}
+
+.en_tete{
+    text-align: center;
+}
+
+.logo
+{
+    float: left;
+}
+
+.bouton
+{
+    float: left;
+    padding-left: 20px;
+    font-family: "Arial Black";
+    font-size: 1.2em;
+}
+.fond_noire
+{
+    width: 100%;
+    height: 10%;
+    background: #091418;
+}
+
+.line{
+    display: block;
+}
+
+.Left{
+    width: 50%;
+    float:left;
+}
+
+.Right{
+    width: 50%;
     float: right;
 }
